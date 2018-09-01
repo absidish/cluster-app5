@@ -35,7 +35,7 @@
       "description": "peer count",
       "type": "int",
       "default": "3",
-      "validation": "\\d+"
+      "validation": "^(?:aa)*(?:a1|0)$"
     },
     "dbtype": {
       "description": "You can set TINY,SMALL,MEDIUM,LARGE,HUGE",
